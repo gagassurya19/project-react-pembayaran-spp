@@ -1,0 +1,782 @@
+{
+	"info": {
+		"_postman_id": "555f69c2-7e88-40b9-b280-a7cfd7cf165f",
+		"name": "pembayaran_spp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "kelas",
+			"item": [
+				{
+					"name": "localhost:8000/kelas",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nama_kelas",
+									"value": "xirpl1",
+									"type": "text"
+								},
+								{
+									"key": "kompetensi_keahlian",
+									"value": "rpl",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8000/kelas",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"kelas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/kelas",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nama_kelas",
+									"value": "tkj1",
+									"type": "text"
+								},
+								{
+									"key": "kompetensi_keahlian",
+									"value": "teknologi komputer jaringan",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8000/kelas",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"kelas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/kelas",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nama_kelas",
+									"value": "xitkj1",
+									"type": "text"
+								},
+								{
+									"key": "kompetensi_keahlian",
+									"value": "teknologi komputer jaringan",
+									"type": "text"
+								},
+								{
+									"key": "id_kelas",
+									"value": "4",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8000/kelas",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"kelas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/kelas/3",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nama_kelas",
+									"value": "xirpl1",
+									"type": "text"
+								},
+								{
+									"key": "kompetensi_keahlian",
+									"value": "rpl",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8000/kelas/3",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"kelas",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "spp",
+			"item": [
+				{
+					"name": "localhost:8000/spp",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8000/spp",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"spp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/spp",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "tahun",
+									"value": "2021",
+									"type": "text"
+								},
+								{
+									"key": "nominal",
+									"value": "350000",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8000/spp",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"spp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/spp",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "tahun",
+									"value": "2021",
+									"type": "text"
+								},
+								{
+									"key": "nominal",
+									"value": "375000",
+									"type": "text"
+								},
+								{
+									"key": "id_spp",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8000/spp",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"spp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/spp/1",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8000/spp/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"spp",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "petugas",
+			"item": [
+				{
+					"name": "localhost:8000/petugas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8000/petugas",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"petugas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/petugas",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "username",
+									"value": "admin2",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "admin2",
+									"type": "text"
+								},
+								{
+									"key": "nama_petugas",
+									"value": "admin2",
+									"type": "text"
+								},
+								{
+									"key": "level",
+									"value": "petugas",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8000/petugas",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"petugas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/petugas",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "text"
+								},
+								{
+									"key": "nama_petugas",
+									"value": "admin",
+									"type": "text"
+								},
+								{
+									"key": "level",
+									"value": "admin",
+									"type": "text"
+								},
+								{
+									"key": "id_petugas",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8000/petugas",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"petugas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/petugas/2",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8000/petugas/2",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"petugas",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "siswa",
+			"item": [
+				{
+					"name": "localhost:8000/siswa",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8000/siswa",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"siswa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/siswa",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nisn",
+									"value": "12345",
+									"type": "text"
+								},
+								{
+									"key": "nis",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "nama",
+									"value": "admin",
+									"type": "text"
+								},
+								{
+									"key": "id_kelas",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "alamat",
+									"value": "tulungagung",
+									"type": "text"
+								},
+								{
+									"key": "no_telp",
+									"value": "081241241124",
+									"type": "text"
+								},
+								{
+									"key": "id_spp",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8000/siswa",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"siswa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/siswa",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nisn",
+									"value": "12345",
+									"type": "text"
+								},
+								{
+									"key": "nis",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "nama",
+									"value": "admin",
+									"type": "text"
+								},
+								{
+									"key": "id_kelas",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "alamat",
+									"value": "tulungagung",
+									"type": "text"
+								},
+								{
+									"key": "no_telp",
+									"value": "0812412411241",
+									"type": "text"
+								},
+								{
+									"key": "id_spp",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8000/siswa",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"siswa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/siswa/12345",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8000/siswa/12345",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"siswa",
+								"12345"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "pembayaran",
+			"item": [
+				{
+					"name": "localhost:8000/pembayaran",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkX3BldHVnYXMiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJwYXNzd29yZCI6IjIxMjMyZjI5N2E1N2E1YTc0Mzg5NGEwZTRhODAxZmMzIiwibmFtYV9wZXR1Z2FzIjoiYWRtaW4iLCJsZXZlbCI6ImFkbWluIiwiY3JlYXRlZEF0IjoiMjAyMS0wMy0yMVQxMjo0Nzo1OC4wMDBaIiwidXBkYXRlZEF0IjoiMjAyMS0wMy0yMVQxMjo1MDowMy4wMDBaIn0sImlhdCI6MTYxNjQ5NzIzOCwiZXhwIjoxNjE2NTAwODM4fQ.dIIP-CAj0q_R-2NhlY1lZQdimLZtPTsxTuQcjUfBn4Y",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8000/pembayaran",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"pembayaran"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/pembayaran",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkX3BldHVnYXMiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJwYXNzd29yZCI6IjIxMjMyZjI5N2E1N2E1YTc0Mzg5NGEwZTRhODAxZmMzIiwibmFtYV9wZXR1Z2FzIjoiYWRtaW4iLCJsZXZlbCI6ImFkbWluIiwiY3JlYXRlZEF0IjoiMjAyMS0wMy0yMVQxMjo0Nzo1OC4wMDBaIiwidXBkYXRlZEF0IjoiMjAyMS0wMy0yMVQxMjo1MDowMy4wMDBaIn0sImlhdCI6MTYxNjQ5NzIzOCwiZXhwIjoxNjE2NTAwODM4fQ.dIIP-CAj0q_R-2NhlY1lZQdimLZtPTsxTuQcjUfBn4Y",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id_petugas",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "nisn",
+									"value": "12345",
+									"type": "text"
+								},
+								{
+									"key": "tgl_bayar",
+									"value": "2021-3-21 21:27:13",
+									"type": "text"
+								},
+								{
+									"key": "bulan_dibayar",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "tahun_dibayar",
+									"value": "2021",
+									"type": "text"
+								},
+								{
+									"key": "id_spp",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "jumlah_bayar",
+									"value": "300000",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8000/pembayaran",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"pembayaran"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/pembayaran",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkX3BldHVnYXMiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJwYXNzd29yZCI6IjIxMjMyZjI5N2E1N2E1YTc0Mzg5NGEwZTRhODAxZmMzIiwibmFtYV9wZXR1Z2FzIjoiYWRtaW4iLCJsZXZlbCI6ImFkbWluIiwiY3JlYXRlZEF0IjoiMjAyMS0wMy0yMVQxMjo0Nzo1OC4wMDBaIiwidXBkYXRlZEF0IjoiMjAyMS0wMy0yMVQxMjo1MDowMy4wMDBaIn0sImlhdCI6MTYxNjQ5NzIzOCwiZXhwIjoxNjE2NTAwODM4fQ.dIIP-CAj0q_R-2NhlY1lZQdimLZtPTsxTuQcjUfBn4Y",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id_petugas",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "nisn",
+									"value": "12345",
+									"type": "text"
+								},
+								{
+									"key": "tgl_bayar",
+									"value": "2021-3-21 21:27:13",
+									"type": "text"
+								},
+								{
+									"key": "bulan_dibayar",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "tahun_dibayar",
+									"value": "2022",
+									"type": "text"
+								},
+								{
+									"key": "id_spp",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "jumlah_bayar",
+									"value": "455000",
+									"type": "text"
+								},
+								{
+									"key": "id_pembayaran",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8000/pembayaran",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"pembayaran"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/pembayaran/2",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkX3BldHVnYXMiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJwYXNzd29yZCI6IjIxMjMyZjI5N2E1N2E1YTc0Mzg5NGEwZTRhODAxZmMzIiwibmFtYV9wZXR1Z2FzIjoiYWRtaW4iLCJsZXZlbCI6ImFkbWluIiwiY3JlYXRlZEF0IjoiMjAyMS0wMy0yMVQxMjo0Nzo1OC4wMDBaIiwidXBkYXRlZEF0IjoiMjAyMS0wMy0yMVQxMjo1MDowMy4wMDBaIn0sImlhdCI6MTYxNjQ5NzIzOCwiZXhwIjoxNjE2NTAwODM4fQ.dIIP-CAj0q_R-2NhlY1lZQdimLZtPTsxTuQcjUfBn4Y",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "{{TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8000/pembayaran/2",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"pembayaran",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
