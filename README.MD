@@ -25,4 +25,4 @@ Project from productive attachement and custimize with Tailwind.
 
 [Postman_profile_test](https://github.com/gagassurya19/project-react-pembayaran-spp/blob/fixed/Docs/pembayaran_spp.postman_collection.json)
 
-$copy;2021
+©2021
